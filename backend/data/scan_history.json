@@ -1,0 +1,327 @@
+[
+  {
+    "scan_id": "70c540a6-6d02-42a8-af34-4722118fc898",
+    "id": "70c540a6-6d02-42a8-af34-4722118fc898",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No AI key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T10:58:37.576216Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "b4ab7dfc-33ba-4e8e-bd8e-e07ab4fb20cd",
+    "id": "b4ab7dfc-33ba-4e8e-bd8e-e07ab4fb20cd",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T12:55:37.556158Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "4dc49842-f519-4bf2-b393-360b72464c04",
+    "id": "4dc49842-f519-4bf2-b393-360b72464c04",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T16:32:31.942173Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "89b4973f-0dab-44e6-8282-925d5820c267",
+    "id": "89b4973f-0dab-44e6-8282-925d5820c267",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T16:33:30.661749Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "aaf2b666-d402-4960-b8e2-14a0401778c5",
+    "id": "aaf2b666-d402-4960-b8e2-14a0401778c5",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T16:34:31.847135Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "26dc894a-727d-4d12-8fbd-92a8bbb82dc0",
+    "id": "26dc894a-727d-4d12-8fbd-92a8bbb82dc0",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T16:37:28.925816Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "17307d18-618a-4b1c-83ae-f24426f1318e",
+    "id": "17307d18-618a-4b1c-83ae-f24426f1318e",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "AI analysis failed: Completions.create() got an unexpected keyword arg...",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T17:29:01.600753Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "6ca8a0b4-c91b-4c8f-ae98-376503102e8f",
+    "id": "6ca8a0b4-c91b-4c8f-ae98-376503102e8f",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "AI analysis failed: Completions.create() got an unexpected keyword arg...",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T17:32:25.780535Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "f41c971e-30d1-4b27-b00d-990489241489",
+    "id": "f41c971e-30d1-4b27-b00d-990489241489",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "AI analysis failed: Completions.create() got an unexpected keyword arg...",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T17:32:44.601677Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "c204e34e-0922-4ade-a378-4b3298966154",
+    "id": "c204e34e-0922-4ade-a378-4b3298966154",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "AI analysis failed: Completions.create() got an unexpected keyword arg...",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T17:32:55.594233Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "3e8f9537-7250-4b61-a441-2740b96284c9",
+    "id": "3e8f9537-7250-4b61-a441-2740b96284c9",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "AI analysis failed: Error code: 401 - {'error': {'message': 'Invalid A...",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T17:33:25.596472Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "784df781-7c79-468b-9e21-406468039602",
+    "id": "784df781-7c79-468b-9e21-406468039602",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "AI analysis failed: Error code: 401 - {'error': {'message': 'Invalid A...",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T17:33:32.406784Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "bf1e7244-632d-4ccb-acaa-a6dd114f670a",
+    "id": "bf1e7244-632d-4ccb-acaa-a6dd114f670a",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T17:59:35.999577Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "fdb801bb-ec71-44e0-a66c-644f83fc9b3b",
+    "id": "fdb801bb-ec71-44e0-a66c-644f83fc9b3b",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T18:00:32.977583Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "f4e40361-71ca-4adb-b04b-e5a3132e9086",
+    "id": "f4e40361-71ca-4adb-b04b-e5a3132e9086",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T18:00:48.885853Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "7b8c24c6-9636-4feb-96b7-dea9b45bbd9a",
+    "id": "7b8c24c6-9636-4feb-96b7-dea9b45bbd9a",
+    "language": "python",
+    "risk_score": 0,
+    "summary": "No Groq API key configured. Using static analysis only.",
+    "vulnerabilities": [],
+    "created_at": "2026-05-18T18:01:10.283803Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "9bddf2bd-501a-49c5-b52a-582b58482ba1",
+    "id": "9bddf2bd-501a-49c5-b52a-582b58482ba1",
+    "language": "python",
+    "risk_score": 90,
+    "summary": "Critical SQL injection vulnerability and medium-risk insecure database connection issues found",
+    "vulnerabilities": [
+      {
+        "id": "vuln-1",
+        "title": "SQL Injection Vulnerability",
+        "severity": "CRITICAL",
+        "line": "4",
+        "owasp": "A03:2021",
+        "rule_id": null,
+        "explanation": "The code uses an f-string to construct a SQL query, which allows an attacker to inject malicious SQL code by manipulating the 'u' parameter. This can lead to unauthorized data access, modification, or even complete control of the database.",
+        "fix": "Use parameterized queries instead of f-strings: conn.execute('SELECT * FROM users WHERE name = ?', (u,))",
+        "cwe": null
+      },
+      {
+        "id": "vuln-2",
+        "title": "Insecure Database Connection",
+        "severity": "MEDIUM",
+        "line": "3",
+        "owasp": "A06:2021",
+        "rule_id": null,
+        "explanation": "The code connects to the database without specifying the full path or using a secure connection method. This can lead to issues with database file location or security.",
+        "fix": "Specify the full path to the database file or use a secure connection method: conn = sqlite3.connect('/path/to/db')",
+        "cwe": null
+      }
+    ],
+    "created_at": "2026-05-18T18:03:33.538711Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "e6c172cc-9495-4267-bc05-2153dd1733e1",
+    "id": "e6c172cc-9495-4267-bc05-2153dd1733e1",
+    "language": "python",
+    "risk_score": 90,
+    "summary": "Critical SQL injection vulnerability due to insecure use of f-strings in SQL queries",
+    "vulnerabilities": [
+      {
+        "id": "vuln-1",
+        "title": "SQL Injection Vulnerability",
+        "severity": "CRITICAL",
+        "line": "5-6",
+        "owasp": "A03:2021",
+        "rule_id": null,
+        "explanation": "The code uses f-strings to directly interpolate user input into a SQL query, making it vulnerable to SQL injection attacks. An attacker could inject malicious SQL code by providing a specially crafted username, potentially leading to unauthorized data access, modification, or even code execution.",
+        "fix": "Use parameterized queries instead of string interpolation: \nquery = 'SELECT * FROM users WHERE username = ?'\nreturn db.execute(query, (username,)).fetchone()",
+        "cwe": null
+      }
+    ],
+    "created_at": "2026-05-18T21:21:57.218628Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "ed721480-e4c1-4378-8e9a-652b1e8106d1",
+    "id": "ed721480-e4c1-4378-8e9a-652b1e8106d1",
+    "language": "python",
+    "risk_score": 95,
+    "summary": "Critical command injection vulnerability due to unsanitized user input in os.system call",
+    "vulnerabilities": [
+      {
+        "id": "vuln-1",
+        "title": "Command Injection Vulnerability",
+        "severity": "CRITICAL",
+        "line": "5-6",
+        "owasp": "A03:2021 - Injection",
+        "rule_id": null,
+        "explanation": "The use of f-strings to construct a command that is then executed by os.system() allows an attacker to inject arbitrary commands. This is because the user_input is not sanitized or validated, allowing an attacker to inject malicious commands. For example, if user_input is '; rm -rf /', the command 'echo ; rm -rf /' would be executed, potentially leading to a catastrophic outcome.",
+        "fix": "import subprocess\n\ndef run_command(user_input):\n    # Use subprocess.run with a list of arguments to prevent command injection\n    subprocess.run(['echo', user_input])",
+        "cwe": null
+      }
+    ],
+    "created_at": "2026-05-18T21:22:38.364602Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "0d4f6b1d-8ae5-427b-b2f9-3d11449bbc28",
+    "id": "0d4f6b1d-8ae5-427b-b2f9-3d11449bbc28",
+    "language": "python",
+    "risk_score": 95,
+    "summary": "Critical command injection vulnerability due to unsanitized user input in os.system call",
+    "vulnerabilities": [
+      {
+        "id": "vuln-1",
+        "title": "Command Injection Vulnerability",
+        "severity": "CRITICAL",
+        "line": "5-6",
+        "owasp": "A03:2021 - Injection",
+        "rule_id": null,
+        "explanation": "The use of f-strings to construct a command that is then executed by os.system() allows an attacker to inject arbitrary commands. This is because the user_input is not sanitized or validated, allowing an attacker to inject malicious commands. For example, if user_input is '; rm -rf /', the command 'echo ; rm -rf /' would be executed, potentially leading to a catastrophic outcome.",
+        "fix": "import subprocess\n\ndef run_command(user_input):\n    # Use subprocess.run with a list of arguments to prevent command injection\n    subprocess.run(['echo', user_input])",
+        "cwe": null
+      }
+    ],
+    "created_at": "2026-05-18T21:23:15.281582Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "5cc09122-f6b1-4107-8884-3b3ce6120d46",
+    "id": "5cc09122-f6b1-4107-8884-3b3ce6120d46",
+    "language": "python",
+    "risk_score": 90,
+    "summary": "Critical SQL injection vulnerability due to insecure use of f-strings in SQL queries",
+    "vulnerabilities": [
+      {
+        "id": "vuln-1",
+        "title": "SQL Injection Vulnerability",
+        "severity": "CRITICAL",
+        "line": "2",
+        "owasp": "A03:2021",
+        "rule_id": null,
+        "explanation": "The code is vulnerable to SQL injection because it uses an f-string to directly insert the 'id' variable into the SQL query. This allows an attacker to inject malicious SQL code by manipulating the 'id' variable.",
+        "fix": "import sqlite3\nquery = 'SELECT * FROM users WHERE id = ?'\nconn = sqlite3.connect('database.db')\ncursor = conn.cursor()\ncursor.execute(query, (id,))\nresult = cursor.fetchall()",
+        "cwe": null
+      }
+    ],
+    "created_at": "2026-05-18T21:23:44.928090Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  },
+  {
+    "scan_id": "b6dda544-0dfc-4d6f-ac8d-40c56548021f",
+    "id": "b6dda544-0dfc-4d6f-ac8d-40c56548021f",
+    "language": "python",
+    "risk_score": 90,
+    "summary": "Critical SQL injection vulnerability due to insecure use of f-strings in SQL queries",
+    "vulnerabilities": [
+      {
+        "id": "vuln-1",
+        "title": "SQL Injection Vulnerability",
+        "severity": "CRITICAL",
+        "line": "2",
+        "owasp": "A03:2021",
+        "rule_id": null,
+        "explanation": "The code is vulnerable to SQL injection because it uses an f-string to directly insert the 'id' variable into the SQL query. This allows an attacker to inject malicious SQL code by manipulating the 'id' variable.",
+        "fix": "import sqlite3\nquery = 'SELECT * FROM users WHERE id = ?'\nconn = sqlite3.connect('database.db')\ncursor = conn.cursor()\ncursor.execute(query, (id,))\nresults = cursor.fetchall()",
+        "cwe": null
+      }
+    ],
+    "created_at": "2026-05-18T21:24:20.705512Z",
+    "filename": "snippet.py",
+    "scanner_output": {}
+  }
+]
