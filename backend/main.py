@@ -27,3 +27,7 @@ app.include_router(scan.router,   prefix="/api", tags=["scan"])
 app.include_router(history.router, prefix="/api", tags=["history"])
 app.include_router(chat.router,    prefix="/api", tags=["chat"])
 app.include_router(advanced.router, prefix="/api", tags=["advanced"])
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)
