@@ -30,6 +30,16 @@ app = FastAPI(
     version="0.1.0",
 )
 
+
+@app.get("/")
+async def root() -> dict[str, str]:
+    return {
+        "name": "OWASPilot API",
+        "status": "ok",
+        "health": "/api/health",
+        "docs": "/docs",
+    }
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_parse_cors_origins(),
