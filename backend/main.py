@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -28,6 +29,19 @@ app.include_router(history.router, prefix="/api", tags=["history"])
 app.include_router(chat.router,    prefix="/api", tags=["chat"])
 app.include_router(advanced.router, prefix="/api", tags=["advanced"])
 
+# Uvicorn server startup configuration
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    
+    # Get host and port from environment or use defaults
+    host = os.getenv("HOST", "0.0.0.0")
+    port = int(os.getenv("PORT", 8000))
+    
+    # Start Uvicorn server
+    uvicorn.run(
+        app,
+        host=host,
+        port=port,
+        log_level="info",
+        access_log=True
+    )
