@@ -9,6 +9,21 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import scan, history, health, chat, advanced
 
+
+def _parse_cors_origins() -> list[str]:
+    configured = os.getenv("CORS_ALLOW_ORIGINS")
+    if configured:
+        return [origin.strip() for origin in configured.split(",") if origin.strip()]
+
+    return [
+        "http://localhost:3000",
+        "http://localhost:5173",
+        "http://localhost:8081",
+        "http://127.0.0.1:3000",
+        "http://127.0.0.1:5173",
+        "http://127.0.0.1:8081",
+    ]
+
 app = FastAPI(
     title="OWASPilot API",
     description="AI-powered secure coding assistant backend",
@@ -17,7 +32,8 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # tighten in production
+    allow_origins=_parse_cors_origins(),
+    allow_origin_regex=os.getenv("CORS_ALLOW_ORIGIN_REGEX", r"https://.*\.vercel\.app"),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

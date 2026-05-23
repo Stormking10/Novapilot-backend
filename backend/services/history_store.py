@@ -1,11 +1,20 @@
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from threading import Lock
 
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "data"
-HISTORY_FILE = DATA_DIR / "scan_history.json"
+def _history_file() -> Path:
+    configured = os.getenv("OWASPILOT_HISTORY_FILE")
+    if configured:
+        return Path(configured)
+    if os.getenv("VERCEL"):
+        return Path("/tmp/owaspilot_scan_history.json")
+    return Path(__file__).resolve().parents[1] / "data" / "scan_history.json"
+
+
+HISTORY_FILE = _history_file()
 MAX_HISTORY = 100
 _LOCK = Lock()
 
@@ -45,7 +54,7 @@ def _read_history() -> list[dict]:
 
 
 def _write_history(history: list[dict]) -> None:
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
     HISTORY_FILE.write_text(
         json.dumps(history, indent=2, ensure_ascii=False),
         encoding="utf-8",
